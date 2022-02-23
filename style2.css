@@ -1,0 +1,273 @@
+/**
+ * style.css - Style principal de la page
+ */
+
+/* color:#ecd537   (jaune)
+ color:#1f1f1f (noir) */
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+  color: #fff;
+}
+
+/* ACCUEIL----------------------------------------------- */
+
+.line {
+  height: 1vh;
+  background-color: #ecd537;
+  width: 100%;
+}
+
+.header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  background: url("./assets/images/logo.png");
+  height: 7vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 1vw;
+  background-position: center;
+}
+
+.navbar {
+  display: flex;
+  width: 50vw;
+  height: 9vh;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.carre {
+  height: 12px;
+  width: 12px;
+  background-color: #ecd537;
+}
+
+.navbar p {
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+  margin-top: 0;
+}
+
+.accueil {
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/images/altenstein-castle.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+  height: 89vh;
+}
+.accueil-slogan {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.accueil-slogan h5 {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 20%;
+}
+
+.accueil-slogan h1 {
+  font-family: "Moon Dance";
+  src: url("assets/fonts/Moon_Dance/MoonDance-Regular.ttf");
+  font-size: 100px;
+  margin: 10px;
+}
+
+.accueil-slogan button {
+  color: white;
+  background-color: #ecd537;
+  width: 15%;
+  height: 12%;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.accueil-content {
+  margin-top: 20%;
+}
+.deco-text-left {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-family: "Moon Dance";
+  src: url("assets/fonts/Moon_Dance/MoonDance-Regular.ttf");
+  font-size: 120px;
+  margin-left: -50px;
+  margin-top: 15px;
+  position: absolute;
+  height: 50%;
+  text-align: right;
+  opacity: 10%;
+  font-weight: 300;
+}
+.deco-text-right {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: "Moon Dance";
+  src: url("assets/fonts/Moon_Dance/MoonDance-Regular.ttf");
+  font-size: 120px;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  opacity: 10%;
+  font-weight: 300;
+  top: 20%;
+}
+
+/* DECOUVREZ LE CONCEPT----------------------------------------------- */
+.title {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  margin: 25px 0;
+}
+
+.title h2 {
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 35px 50px;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+.card-content {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  color: black;
+  margin: 40px auto;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery li {
+  padding: 20px;
+  height: 250px;
+
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-chateaux {
+  position: relative;
+}
+
+.small {
+  flex-basis: 20%;
+}
+
+.large {
+  flex-basis: 40%;
+}
+
+.card {
+  width: 240px;
+  height: 150px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+}
+.card span {
+  font-size: 3rem;
+}
+
+/* ECRIVEZ-NOUS */
+.row {
+  display: flex;
+  line-height: 3;
+  align-items: center;
+}
+
+.mini-card {
+  margin: 15px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.informations {
+  width: 80%;
+  margin: auto;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin: 3% 0 1% 0;
+}
+
+/**
+ * Polices
+ */
+
+/* Moon Dance */
+@font-face {
+  font-family: "Moon Dance";
+  src: url("assets/fonts/Moon_Dance/MoonDance-Regular.ttf");
+}
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: bold;
+}
+
+/* A FAIRE: Implémenter le style de la page selon la maquette */

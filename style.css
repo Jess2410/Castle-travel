@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+  color: white;
+}
+
+/* ACCUEIL----------------------------------------------- */
+
+.line {
+  height: 1vh;
+  background-color: #ecd537;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+/* .logo {
+  background-image: url("./assets/images/logo.png");
+  height: 200px;
+  width: 300px;
+} */
+
+/* 
+ * Polices
+ */
+
+/* Moon Dance */
+@font-face {
+  font-family: "Moon Dance";
+  src: url("assets/fonts/Moon_Dance/MoonDance-Regular.ttf");
+}
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: bold;
+}
+
+/* A FAIRE: Implémenter le style de la page selon la maquette */

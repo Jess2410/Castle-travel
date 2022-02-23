@@ -1,0 +1,22 @@
+@media (min-width: 820px) {
+  .gallery li {
+    padding: 20px;
+    height: 450px;
+  }
+
+  .small {
+    flex-basis: 40%;
+  }
+
+  .large {
+    flex-basis: 70%;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    width: 100px;
+    height: 260px;
+  }
+}
